@@ -82,12 +82,27 @@ h1 {
     color: var(--Bright-orange);   
 }
 
+button:hover {
+  color: var(--Transparent-white);
+  background: transparent;
+  border: 2px solid var(--Transparent-white);
+
+}
+
 .suvs .button {
     color: var(--Dark-cyan);
 }
 
+.suvs .button:hover {
+    color: var(--Transparent-white);
+}
+
 .luxury .button {
     color: var(--Very-dark-cyan);
+}
+
+.luxury .button:hover {
+    color: var(--Transparent-white);
 }
 
 @media screen and (max-width: 375px) {
